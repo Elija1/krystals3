@@ -115,7 +115,7 @@ const contactpage = () => {
         <footer className="w-full flex justify-center bg-transparent py-6 animate-fade-in mt-auto">
           <div
             className="bg-white rounded-xl shadow-md text-center py-6 px-10 ml-auto"
-            style={{ width: "60vw", margin: "0 auto" }}
+            style={{ width: "60vw", margin: "0 auto", backgroundColor: "#4b6885ff" }}
           >
             {/* Location */}
             <p className="text-blue-900 text-base font-semibold mb-3 tracking-wide">
