@@ -35,13 +35,13 @@ const contactpage = () => {
 
   return (
     <div
-  className="min-h-screen bg-cover bg-center flex flex-col items-center p-6"
-  style={{ backgroundImage: `url(${contactBg})` }}
->
+      className="min-h-screen bg-cover bg-center flex flex-col items-center p-6"
+      style={{ backgroundImage: `url(${contactBg})` }}
+    >
 
       <h1 className="text-5xl font-extrabold text-white mb-10 drop-shadow-lg text-center">
-  Contact Us
-</h1>
+        Contact Us
+      </h1>
 
       <div className="w-full max-w-4xl grid md:grid-cols-2 gap-6">
         {/* Contact Info */}
@@ -55,8 +55,8 @@ const contactpage = () => {
             <div className="flex items-center gap-3">
               <Phone className="text-green-500" />
               <span>‪+2547 00 282 618‬</span>
-               <Phone className="text-green-500" />
-               <br /><br />
+              <Phone className="text-green-500" />
+              <br /><br />
               <span>‪+2547 29 770 384‬</span>
             </div>
             <div className="flex items-center gap-3">
@@ -111,104 +111,104 @@ const contactpage = () => {
             <p className="text-green-600 font-medium mt-2">Message sent successfully!</p>
           )}
         </form>
-<footer className="w-full flex justify-center bg-transparent py-6 animate-fade-in mt-auto">
-  <div
-    className="bg-white rounded-xl shadow-md text-center py-6 px-10 ml-auto"
-  style={{ width: "60vw" }}
-  >
-    {/* Location */}
-    <p className="text-blue-900 text-base font-semibold mb-3 tracking-wide">
-  <span className="text-black">Rendile Arcade Plaza</span>, opposite <span className="text-red-600">Kamukunji Police Station</span>, along <span className="text-green-600">Ukwala Rd</span>
-</p>
+        <footer className="w-full flex justify-center bg-transparent py-6 animate-fade-in mt-auto">
+          <div
+            className="bg-white rounded-xl shadow-md text-center py-6 px-10 ml-auto"
+            style={{ width: "70vw" }}
+          >
+            {/* Location */}
+            <p className="text-blue-900 text-base font-semibold mb-3 tracking-wide">
+              <span className="text-black">Rendile Arcade Plaza</span>, opposite <span className="text-red-600">Kamukunji Police Station</span>, along <span className="text-green-600">Ukwala Rd</span>
+            </p>
 
 
-    {/* Social Icons in a row */}
-    <div className="flex justify-center items-center gap-6 mb-3">
-      {/* Facebook */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-blue-600 hover:scale-110 transition"
-        >
-          <Facebook className="w-8 h-8 text-white" />
-        </a>
-        <span className="text-xs text-gray-700">Facebook</span>
-      </div>
+            {/* Social Icons in a row */}
+            <div className="flex justify-center items-center gap-6 mb-3">
+              {/* Facebook */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-blue-600 hover:scale-110 transition"
+                >
+                  <Facebook className="w-8 h-8 text-white" />
+                </a>
+                <span className="text-xs text-gray-700">Facebook</span>
+              </div>
 
-      {/* Instagram */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-pink-500 hover:scale-110 transition"
-        >
-          <Instagram className="w-8 h-8 text-white" />
-        </a>
-        <span className="text-xs text-gray-700">Instagram</span>
-      </div>
+              {/* Instagram */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-pink-500 hover:scale-110 transition"
+                >
+                  <Instagram className="w-8 h-8 text-white" />
+                </a>
+                <span className="text-xs text-gray-700">Instagram</span>
+              </div>
 
-      {/* YouTube */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-red-600 hover:scale-110 transition"
-        >
-          <Youtube className="w-8 h-8 text-white" />
-        </a>
-        <span className="text-xs text-gray-700">YouTube</span>
-      </div>
+              {/* YouTube */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-red-600 hover:scale-110 transition"
+                >
+                  <Youtube className="w-8 h-8 text-white" />
+                </a>
+                <span className="text-xs text-gray-700">YouTube</span>
+              </div>
 
-      {/* Twitter */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-blue-400 hover:scale-110 transition"
-        >
-          <Twitter className="w-8 h-8 text-white" />
-        </a>
-        <span className="text-xs text-gray-700">Twitter</span>
-      </div>
+              {/* Twitter */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-blue-400 hover:scale-110 transition"
+                >
+                  <Twitter className="w-8 h-8 text-white" />
+                </a>
+                <span className="text-xs text-gray-700">Twitter</span>
+              </div>
 
-      {/* WhatsApp */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://wa.me/254700282618"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-green-500 hover:scale-110 transition"
-        >
-          <MessageCircle className="w-8 h-8 text-white" />
-        </a>
-        <span className="text-xs text-gray-700">WhatsApp</span>
-      </div>
+              {/* WhatsApp */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://wa.me/254700282618"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-green-500 hover:scale-110 transition"
+                >
+                  <MessageCircle className="w-8 h-8 text-white" />
+                </a>
+                <span className="text-xs text-gray-700">WhatsApp</span>
+              </div>
 
-      {/* TikTok */}
-      <div className="flex flex-col items-center">
-        <a
-          href="https://www.tiktok.com/@yourpage"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-black hover:scale-110 transition"
-        >
-          <span className="text-xl text-white">🎵</span>
-        </a>
-        <span className="text-xs text-gray-700">TikTok</span>
-      </div>
-    </div>
+              {/* TikTok */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://www.tiktok.com/@yourpage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-black hover:scale-110 transition"
+                >
+                  <span className="text-xl text-white">🎵</span>
+                </a>
+                <span className="text-xs text-gray-700">TikTok</span>
+              </div>
+            </div>
 
-    {/* Copyright */}
-    <p className="text-gray-600 text-xs">
-      © 30th July 2025 | Krystal Traders. All rights reserved.
-    </p>
-  </div>
-</footer>
+            {/* Copyright */}
+            <p className="text-gray-600 text-xs">
+              © 30th July 2025 | Krystal Traders. All rights reserved.
+            </p>
+          </div>
+        </footer>
 
 
       </div>
@@ -216,4 +216,4 @@ const contactpage = () => {
   );
 };
 
-export default contactpage;
+export default contactpage;
