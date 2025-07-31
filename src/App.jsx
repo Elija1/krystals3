@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import ContactPage from "./contact/contactpage";
+import ContactPage from "./contact/contactPage";
 import AboutUs from "./AboutUs"; // ✅ Import About Us page
 import "./App.css";
 import BurnerSlider from "./assets/components/BurnerSlider";
