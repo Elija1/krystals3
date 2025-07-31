@@ -88,3 +88,35 @@ main {
   padding: 40px;
   text-align: center;
 }
+
+/* ...existing code... */
+
+@media only screen and (max-width:768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+  }
+
+  nav {
+    justify-content: flex-start;
+    padding: 0.5rem;
+  }
+
+  .website-name {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  main {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .dropdown-content {
+    min-width: 120px;
+    font-size: 14px;
+  }
+}
+/* ...existing code... */
