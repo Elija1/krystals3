@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import "../App.css";
 import { Mail, Phone, MapPin, Images } from "lucide-react";
 import contactBg from "../assets/contact-bg.jpg";
 import {
@@ -114,7 +115,7 @@ const contactpage = () => {
         <footer className="w-full flex justify-center bg-transparent py-6 animate-fade-in mt-auto">
           <div
             className="bg-white rounded-xl shadow-md text-center py-6 px-10 ml-auto"
-            style={{ width: "70vw" }}
+            style={{ width: "60vw", margin: "0 auto" }}
           >
             {/* Location */}
             <p className="text-blue-900 text-base font-semibold mb-3 tracking-wide">
